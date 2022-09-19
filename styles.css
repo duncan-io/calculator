@@ -7,8 +7,9 @@ body {
     background-color: grey;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 
 .header {
@@ -58,6 +59,10 @@ body {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer {
+    color: white;
 }
 
 .num,
